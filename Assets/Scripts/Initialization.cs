@@ -14,7 +14,7 @@ public class Initialization : SingletonMonoBehaviour<Initialization>
     private int _numberOfCharacters;
 
     [SerializeField]
-    private List<GameObject> CharacterCollection;
+    private List<GameObject> _characterCollection;
 
     public List<Vector3> AvailablePositions;
 
@@ -56,7 +56,7 @@ public class Initialization : SingletonMonoBehaviour<Initialization>
         for (int i = 0; i < _numberOfCharacters; i++)
         {
             var position = positionsToInit[Random.Range(0, positionsToInit.Count)];
-            var characterPrefab = CharacterCollection[Random.Range(0, CharacterCollection.Count - 1)];
+            var characterPrefab = _characterCollection[Random.Range(0, _characterCollection.Count - 1)];
             Instantiate(characterPrefab, position, Quaternion.identity, transform);
         }
     }

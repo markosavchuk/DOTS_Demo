@@ -2,7 +2,6 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.AI;
-using UnityStandardAssets.Characters.ThirdPerson;
 
 public class CharacterControllerScript : MonoBehaviour
 {

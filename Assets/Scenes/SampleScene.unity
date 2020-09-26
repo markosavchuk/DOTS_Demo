@@ -548,7 +548,7 @@ MonoBehaviour:
   _builingPrefab: {fileID: 1054516217474596789, guid: 7b763649adc8645f086cee1c1ee0ac52, type: 3}
   _squareSize: 100
   _numberOfCharacters: 120
-  CharacterCollection:
+  _characterCollection:
   - {fileID: 164060, guid: 84b7f2babe90f074d95914a35a93f967, type: 3}
   - {fileID: 119662, guid: 3adabc2a14b45fb419183e4a5dfa138c, type: 3}
   - {fileID: 184394, guid: 22aee487903c32040a8eb41bd4b15386, type: 3}
